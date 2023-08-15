@@ -1,0 +1,13 @@
+var input = 10;
+var a = 0;
+var b = 1;
+var c;
+var output = "";
+for (var i = 1; i <= input; i++) 
+{
+  output += a + " ";
+  c = a + b;
+  a = b;
+  b = c;
+}
+console.log(output);
